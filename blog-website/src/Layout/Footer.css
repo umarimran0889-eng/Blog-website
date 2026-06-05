@@ -1,0 +1,181 @@
+/* Main Footer Base configuration */
+.custom-footer {
+    background-color: #141414;
+    color: #98989A;
+    font-size: 15px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-top: 1px solid #1A1A1A;
+}
+
+/* Footer Section Headings */
+.footer-heading {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+/* Links List Wrapper */
+.footer-links-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.footer-links-list li {
+    margin-bottom: 14px;
+}
+
+.footer-link {
+    color: #98989A;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer-link:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Custom Notification 'New' Badge */
+.badge-new {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    border: 1px solid #262626;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 6px;
+    margin-left: 8px;
+    font-weight: 400;
+}
+
+/* --- Resources Cards Styling (Right Column) --- */
+.resource-box-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #98989A;
+    text-decoration: none;
+    background-color: #141414;
+    border: 1px solid #1A1A1A;
+    padding: 14px 20px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    width: 100%;
+    max-width: 260px;
+    transition: all 0.2s ease-in-out;
+}
+
+.resource-box-link span {
+    font-size: 15px;
+    font-weight: 400;
+    color: #98989A;
+    transition: color 0.2s ease;
+}
+
+.resource-box-link:hover {
+    background-color: #1A1A1A;
+    border-color: #262626;
+    text-decoration: none;
+}
+
+.resource-box-link:hover span {
+    color: #FFFFFF;
+}
+
+/* React Icon Arrow element customization */
+.resource-icon-arrow {
+    color: #FFD014;
+    font-size: 16px;
+    transition: transform 0.2s ease;
+}
+
+.resource-box-link:hover .resource-icon-arrow {
+    transform: translate(2px, -2px);
+}
+
+/* Bottom Bar Formatting rules */
+.footer-divider {
+    border-color: #1A1A1A;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    opacity: 1;
+}
+
+.footer-bottom-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.footer-bottom-link {
+    color: #98989A;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-bottom-link:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-bottom-divider {
+    color: #1A1A1A;
+}
+
+/* Social Icon Alignment elements */
+.social-icons-gap {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.social-svg-icon {
+    fill: #FFFFFF;
+    transition: opacity 0.2s ease;
+}
+
+.social-svg-icon:hover {
+    opacity: 0.7;
+}
+
+.copyright-text {
+    font-size: 14px;
+    text-align: right;
+    color: #98989A;
+}
+
+/* Responsive Adaptive Viewports */
+@media (max-width: 767.98px) {
+    .custom-footer {
+        padding-top: 40px;
+    }
+
+    .footer-heading {
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+
+    .resource-box-link {
+        max-width: 100%;
+    }
+
+    .copyright-text {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .social-icons-gap {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .footer-bottom-links {
+        justify-content: center;
+    }
+}
