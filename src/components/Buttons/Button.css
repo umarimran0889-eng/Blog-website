@@ -1,0 +1,59 @@
+.custom-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    color: #fff;
+}
+
+.custom-btn:focus-visible {
+    outline: 2px solid #0d6efd;
+    outline-offset: 2px;
+}
+
+.custom-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.custom-btn.custom-variant-submit {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.custom-btn.custom-variant-submit:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.custom-btn.custom-variant-save {
+    background-color: #FFD11A;
+}
+
+.custom-btn.custom-variant-save:hover {
+    background-color: #FFD11A;
+}
+
+.custom-btn.custom-variant-cancel {
+    background-color: lightcoral;
+}
+
+.custom-btn.custom-variant-cancel:hover {
+    background-color:lightcoral;
+}
+
+.custom-btn.custom-variant-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.custom-btn.custom-variant-danger:hover {
+    background-color: #bd2130;
+    border-color: #b21f2d;
+}
