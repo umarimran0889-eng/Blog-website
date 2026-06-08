@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node api.js && vite",
     "clean": "rimraf dist",
-    "build": "npm run clean && vite build",
+    "build": "node api.js && npm run clean && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
