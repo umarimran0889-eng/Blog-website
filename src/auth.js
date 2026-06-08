@@ -9,7 +9,7 @@ import {
 } from 'firebase/auth';
 import { doc, getDoc } from 'firebase/firestore';
 import { db } from './firebase';
-import { saveUserToFirestore } from './services/users';
+import { saveUserToFirestore } from './Services/users';
 
 const auth = getAuth(app);
 const googleProvider = new GoogleAuthProvider();

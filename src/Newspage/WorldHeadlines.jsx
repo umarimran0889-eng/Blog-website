@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { subscribeToBlogs } from '../services/blogs';
+import { subscribeToBlogs } from '../Services/blogs';
 import './Worldheadlines.css';
 
 const categories = ['All', 'Technology', 'Politics', 'Health', 'Environment', 'Sports'];

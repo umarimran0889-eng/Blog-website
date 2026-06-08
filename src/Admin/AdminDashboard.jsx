@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'; 
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../Context/AuthContext';
 import BlogsPanel from './pages/BlogsPanel';
 import ReviewsPanel from './pages/ReviewsPanel';
 import UsersPanel from './pages/UsersPanel';
