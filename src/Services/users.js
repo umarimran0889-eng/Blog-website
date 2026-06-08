@@ -1,5 +1,5 @@
 import { doc, setDoc } from 'firebase/firestore';
-import { db } from '../firebase';
+import { db } from '../Firebase';
 
 const ADMIN_EMAIL = 'umarimran0889@gmail.com';
 

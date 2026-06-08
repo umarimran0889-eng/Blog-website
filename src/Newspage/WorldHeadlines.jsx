@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { subscribeToBlogs } from '../Services/blogs';
-import './Worldheadlines.css';
+import './WorldHeadlines.css';
 
 const categories = ['All', 'Technology', 'Politics', 'Health', 'Environment', 'Sports'];
 

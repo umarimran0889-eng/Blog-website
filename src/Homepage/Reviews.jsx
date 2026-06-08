@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Modal } from 'react-bootstrap';
 import { collection, query, orderBy, onSnapshot } from 'firebase/firestore';
-import { db } from '../firebase';
+import { db } from '../Firebase';
 import ReviewForm from './ReviewsForm';
 import './Reviews.css';
 

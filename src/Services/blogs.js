@@ -8,7 +8,7 @@ import {
   onSnapshot,
   serverTimestamp,
 } from 'firebase/firestore';
-import { db } from '../firebase';
+import { db } from '../Firebase';
 
 const blogsCollection = collection(db, 'blogs');
 

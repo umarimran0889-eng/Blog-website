@@ -6,7 +6,7 @@ import {
   collection, deleteDoc, updateDoc,
   doc, query, orderBy, onSnapshot
 } from 'firebase/firestore';
-import { db } from '../../firebase';
+import { db } from '../../Firebase';
 import { FiEdit2, FiTrash2, FiCheck, FiX, FiPlus, FiMoreVertical } from 'react-icons/fi';
 
 import ReviewForm from '../../Homepage/ReviewsForm';

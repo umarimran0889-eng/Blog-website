@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { collection, query, orderBy, onSnapshot } from 'firebase/firestore';
-import { db } from '../../firebase';
+import { db } from '../../Firebase';
 import { FiUser, FiShield } from 'react-icons/fi';
 
 function UsersPanel() {
