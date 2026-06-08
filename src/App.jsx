@@ -2,7 +2,7 @@ import React from "react";
 import AuthGuard from "./Authguard";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
-import ScrollToTop from "./ScrollToTop";
+import ScrollToTop from "./ScrolltoTop";
 
 import HomePage from "./Homepage";
 import Newspage from "./Newspage";
@@ -10,7 +10,7 @@ import Resourcepage from "./Resourcespage";
 import Login from './LoginPages/Login';
 import Signup from './LoginPages/Signup';
 import Contactpage from "./Contactpage";
-import PodcastPage from "./Podcastpage/Index";
+import PodcastPage from "./Podcastpage";
 import AdminDashboard from './Admin/AdminDashboard';
 
 const App = () => {
