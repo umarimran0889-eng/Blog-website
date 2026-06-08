@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Badge, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './PodcastGrid.css';
+import './podcastgrid.css';
 
 const podcastEpisodes = [
   {
