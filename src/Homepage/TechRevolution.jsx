@@ -64,6 +64,8 @@ const TechRevolution = () => {
       </Container>
     </section>
   );
+
+  
 };
 
 export default TechRevolution;
